@@ -1,0 +1,108 @@
+.App {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* justify-items: center; */
+}
+
+.AddTodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.AppTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  background-color: #646464;
+  color: #ededed;
+}
+
+.EditTodoInput{
+  border: transparent;
+  padding: 0% 5px;
+  margin: 0% auto;
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.AddTodoInput{
+  /* width: 50%; */
+  margin: 0% auto;
+  padding: 0%;
+  border: #1c5bc9 1px solid;
+  border-radius: 6px;
+  width: 75%;
+}
+
+.TodoText {
+  display: flex;
+  align-items: center;
+  padding: 0%;
+  /* margin: 0% auto; */
+  /* height: 25px; */
+  font-size: 20px;
+}
+
+.AddTodoButton{
+  display: flex;
+  align-items: center;
+  margin: 0% auto;
+  padding: 1px 10px;
+  border-radius: 6px;
+  background-color: #1c5bc9;
+  color: #ededed;
+  font-size: 20px;
+}
+
+.RemoveTodo, .EditTodo, .EditTodoSave, .EditTodoCancel {
+  margin-left: 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background-color: #1c5bc9;
+  color: #ededed;
+}
+
+.AddTodoButton:hover{
+  opacity: 0.9;
+}
+
+.AddTodoButton:focus{
+  background-color: transparent !important;
+  color: #1c5bc9;
+  border: #1c5bc9 2px solid;
+}
+
+.RemoveTodo:focus{
+  background-color: transparent !important;
+  color: #1c5bc9;
+  border: #1c5bc9 2px solid;
+}
+
+.EditTodo:focus{
+  background-color: transparent !important;
+  color: #1c5bc9;
+  border: #1c5bc9 2px solid;
+}
+
+.RemoveTodo:hover{
+  opacity: 0.9;
+}
+
+.EditTodo:hover{
+  opacity: 0.9;
+}
+
+.Todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
